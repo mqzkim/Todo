@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4CE7BFCA1FD53D5F15FB0BD9 /* Pods_Todo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 269A0B436D80A9FDE2828894 /* Pods_Todo.framework */; };
+		4F3D5CAE214BFC4E0012D1FB /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CAA214BFC4E0012D1FB /* RootRouter.swift */; };
+		4F3D5CAF214BFC4E0012D1FB /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CAB214BFC4E0012D1FB /* RootViewController.swift */; };
+		4F3D5CB0214BFC4E0012D1FB /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CAC214BFC4E0012D1FB /* RootBuilder.swift */; };
+		4F3D5CB1214BFC4E0012D1FB /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CAD214BFC4E0012D1FB /* RootInteractor.swift */; };
 		4F892552214BF94E0065E8E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F892551214BF94E0065E8E9 /* AppDelegate.swift */; };
-		4F892554214BF94E0065E8E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F892553214BF94E0065E8E9 /* ViewController.swift */; };
-		4F892557214BF94E0065E8E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F892555214BF94E0065E8E9 /* Main.storyboard */; };
 		4F892559214BF94F0065E8E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F892558214BF94F0065E8E9 /* Assets.xcassets */; };
 		4F89255C214BF94F0065E8E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F89255A214BF94F0065E8E9 /* LaunchScreen.storyboard */; };
 		4F892567214BF94F0065E8E9 /* TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F892566214BF94F0065E8E9 /* TodoTests.swift */; };
@@ -41,10 +43,12 @@
 		1DF32970B9161670337FAB01 /* Pods-TodoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodoUITests.release.xcconfig"; path = "Target Support Files/Pods-TodoUITests/Pods-TodoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		269A0B436D80A9FDE2828894 /* Pods_Todo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D6CE59A960768EB8212B7E /* Pods_TodoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F3D5CAA214BFC4E0012D1FB /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		4F3D5CAB214BFC4E0012D1FB /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		4F3D5CAC214BFC4E0012D1FB /* RootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
+		4F3D5CAD214BFC4E0012D1FB /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
 		4F89254E214BF94E0065E8E9 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F892551214BF94E0065E8E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4F892553214BF94E0065E8E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4F892556214BF94E0065E8E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F892558214BF94F0065E8E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F89255B214BF94F0065E8E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F89255D214BF94F0065E8E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,6 +103,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4F3D5CA9214BFC3D0012D1FB /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				4F3D5CAA214BFC4E0012D1FB /* RootRouter.swift */,
+				4F3D5CAB214BFC4E0012D1FB /* RootViewController.swift */,
+				4F3D5CAC214BFC4E0012D1FB /* RootBuilder.swift */,
+				4F3D5CAD214BFC4E0012D1FB /* RootInteractor.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
 		4F892545214BF94E0065E8E9 = {
 			isa = PBXGroup;
 			children = (
@@ -124,9 +139,8 @@
 		4F892550214BF94E0065E8E9 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				4F3D5CA9214BFC3D0012D1FB /* Root */,
 				4F892551214BF94E0065E8E9 /* AppDelegate.swift */,
-				4F892553214BF94E0065E8E9 /* ViewController.swift */,
-				4F892555214BF94E0065E8E9 /* Main.storyboard */,
 				4F892558214BF94F0065E8E9 /* Assets.xcassets */,
 				4F89255A214BF94F0065E8E9 /* LaunchScreen.storyboard */,
 				4F89255D214BF94F0065E8E9 /* Info.plist */,
@@ -162,7 +176,6 @@
 				754EECEC8C09CB93E9B95CA7 /* Pods-TodoUITests.debug.xcconfig */,
 				1DF32970B9161670337FAB01 /* Pods-TodoUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -276,7 +289,6 @@
 			files = (
 				4F89255C214BF94F0065E8E9 /* LaunchScreen.storyboard in Resources */,
 				4F892559214BF94F0065E8E9 /* Assets.xcassets in Resources */,
-				4F892557214BF94E0065E8E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +363,9 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Todo/Pods-Todo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RIBs/RIBs.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -359,7 +373,9 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RIBs.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,7 +412,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F892554214BF94E0065E8E9 /* ViewController.swift in Sources */,
+				4F3D5CB1214BFC4E0012D1FB /* RootInteractor.swift in Sources */,
+				4F3D5CAE214BFC4E0012D1FB /* RootRouter.swift in Sources */,
+				4F3D5CB0214BFC4E0012D1FB /* RootBuilder.swift in Sources */,
+				4F3D5CAF214BFC4E0012D1FB /* RootViewController.swift in Sources */,
 				4F892552214BF94E0065E8E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,14 +452,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4F892555214BF94E0065E8E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F892556214BF94E0065E8E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4F89255A214BF94F0065E8E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
