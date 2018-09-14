@@ -17,7 +17,7 @@ protocol RootViewControllable: ViewControllable {
     func present(viewController: ViewControllable)
 }
 
-final class RootRouter: ViewableRouter<RootInteractable, RootViewControllable>, RootRouting {
+final class RootRouter: LaunchRouter<RootInteractable, RootViewControllable>, RootRouting {
 
     // TODO: Constructor inject child builder protocols to allow building children.
     override init(interactor: RootInteractable,
