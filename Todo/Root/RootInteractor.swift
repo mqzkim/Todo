@@ -10,7 +10,7 @@ import RIBs
 import RxSwift
 
 protocol RootRouting: ViewableRouting {
-    // TODO: Declare methods the interactor can invoke to manage sub-tree via the router.
+    func routeToLoggedIn(nickName: String) -> LoggedInActionableItem
 }
 
 protocol RootPresentable: Presentable {
@@ -22,7 +22,7 @@ protocol RootListener: class {
     // TODO: Declare methods the interactor can invoke to communicate with other RIBs.
 }
 
-final class RootInteractor: PresentableInteractor<RootPresentable>, RootInteractable, RootPresentableListener {
+final class RootInteractor: PresentableInteractor<RootPresentable>, RootInteractable, RootPresentableListener, RootActionableItem, URLHandler {
 
     weak var router: RootRouting?
     weak var listener: RootListener?
@@ -43,4 +43,32 @@ final class RootInteractor: PresentableInteractor<RootPresentable>, RootInteract
         super.willResignActive()
         // TODO: Pause any business logic.
     }
+    
+    // MARK: - LoggedOutListener
+    
+    func didLogin(nickName: String) {
+        let loggedInActionableItem = router?.routeToLoggedIn(nickName: nickName)
+        if let loggedInActionableItem = loggedInActionableItem {
+            loggedInActionableItemSubject.onNext(loggedInActionableItem)
+        }
+    }
+    
+    // MARK: - UrlHandler
+    
+    func handle(_ url: URL) {
+
+    }
+    
+    // MARK: - RootActionableItem
+    
+    func waitForLogin() -> Observable<(LoggedInActionableItem, ())> {
+        return loggedInActionableItemSubject
+            .map { (loggedInItem: LoggedInActionableItem) -> (LoggedInActionableItem, ()) in
+                (loggedInItem, ())
+        }
+    }
+    
+    // MARK: - Private
+    
+    private let loggedInActionableItemSubject = ReplaySubject<LoggedInActionableItem>.create(bufferSize: 1)
 }

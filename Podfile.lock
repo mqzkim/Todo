@@ -11,13 +11,17 @@ PODS:
     - Realm (= 3.7.6)
   - RIBs (0.9.1):
     - RxSwift (~> 4.0)
+  - RxCocoa (4.2.0):
+    - RxSwift (~> 4.0)
   - RxSwift (4.2.0)
+  - SnapKit (4.0.0)
 
 DEPENDENCIES:
   - IGListKit
   - RealmSwift
   - RIBs
-  - RxSwift
+  - RxCocoa
+  - SnapKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -25,15 +29,19 @@ SPEC REPOS:
     - Realm
     - RealmSwift
     - RIBs
+    - RxCocoa
     - RxSwift
+    - SnapKit
 
 SPEC CHECKSUMS:
   IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
   Realm: 9eaecad54712d6246d08ba34c10f354e4715d7d3
   RealmSwift: 1fe08b4ebaeeaacf17f9ba0343f7b25c9fc31fa6
   RIBs: 879184fbca567425c488d6b3d14a9c5abfbf9d47
+  RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
   RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
-PODFILE CHECKSUM: 1f0cc7e5133aa3533d4561921c4e30a72b5788f3
+PODFILE CHECKSUM: fcaa0b63353b2d74bacc758c3251bbb6be03a4f8
 
 COCOAPODS: 1.6.0.beta.1

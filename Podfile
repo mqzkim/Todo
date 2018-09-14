@@ -6,8 +6,9 @@ target 'Todo' do
   use_frameworks!
   pod 'RIBs'
   pod 'IGListKit'
-  pod 'RxSwift'
   pod 'RealmSwift'
+  pod 'SnapKit'
+  pod 'RxCocoa'
 
   target 'TodoTests' do
     inherit! :search_paths

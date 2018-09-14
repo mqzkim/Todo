@@ -13,9 +13,33 @@
 		4F3D5CB0214BFC4E0012D1FB /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CAC214BFC4E0012D1FB /* RootBuilder.swift */; };
 		4F3D5CB1214BFC4E0012D1FB /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CAD214BFC4E0012D1FB /* RootInteractor.swift */; };
 		4F3D5CB4214BFEFE0012D1FB /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CB3214BFEFE0012D1FB /* AppComponent.swift */; };
+		4F3D5CB6214C00CB0012D1FB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CB5214C00CB0012D1FB /* Constants.swift */; };
+		4F3D5CC3214C02560012D1FB /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CC2214C02560012D1FB /* Todo.swift */; };
+		4F3D5CC9214C05330012D1FB /* LoggedOutRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CC5214C05330012D1FB /* LoggedOutRouter.swift */; };
+		4F3D5CCA214C05330012D1FB /* LoggedOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CC6214C05330012D1FB /* LoggedOutViewController.swift */; };
+		4F3D5CCB214C05330012D1FB /* LoggedOutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CC7214C05330012D1FB /* LoggedOutBuilder.swift */; };
+		4F3D5CCC214C05330012D1FB /* LoggedOutInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CC8214C05330012D1FB /* LoggedOutInteractor.swift */; };
+		4F3D5CCE214C05C90012D1FB /* RootComponent+LoggedIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CCD214C05C90012D1FB /* RootComponent+LoggedIn.swift */; };
+		4F3D5CD0214C05D60012D1FB /* RootComponent+LoggedOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CCF214C05D60012D1FB /* RootComponent+LoggedOut.swift */; };
+		4F3D5CD6214C07A90012D1FB /* LoggedInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CD2214C07A90012D1FB /* LoggedInRouter.swift */; };
+		4F3D5CD8214C07A90012D1FB /* LoggedInBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CD4214C07A90012D1FB /* LoggedInBuilder.swift */; };
+		4F3D5CD9214C07A90012D1FB /* LoggedInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CD5214C07A90012D1FB /* LoggedInInteractor.swift */; };
+		4F3D5CDB214C09DC0012D1FB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CDA214C09DC0012D1FB /* Item.swift */; };
+		4F3D5CDE214C0A590012D1FB /* LoggedInActionableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CDD214C0A590012D1FB /* LoggedInActionableItem.swift */; };
+		4F3D5CE0214C0A760012D1FB /* RootActionableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CDF214C0A760012D1FB /* RootActionableItem.swift */; };
+		4F3D5CE2214C0DD30012D1FB /* LoggedInComponent+Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CE1214C0DD30012D1FB /* LoggedInComponent+Todo.swift */; };
+		4F3D5CE8214C0E170012D1FB /* TodoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CE4214C0E170012D1FB /* TodoRouter.swift */; };
+		4F3D5CE9214C0E170012D1FB /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CE5214C0E170012D1FB /* TodoViewController.swift */; };
+		4F3D5CEA214C0E170012D1FB /* TodoBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CE6214C0E170012D1FB /* TodoBuilder.swift */; };
+		4F3D5CEB214C0E170012D1FB /* TodoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CE7214C0E170012D1FB /* TodoInteractor.swift */; };
+		4F3D5CED214C0EF20012D1FB /* TodoAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CEC214C0EF20012D1FB /* TodoAdapter.swift */; };
+		4F3D5CF3214C11570012D1FB /* OffItemRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CEF214C11570012D1FB /* OffItemRouter.swift */; };
+		4F3D5CF4214C11570012D1FB /* OffItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CF0214C11570012D1FB /* OffItemViewController.swift */; };
+		4F3D5CF5214C11570012D1FB /* OffItemBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CF1214C11570012D1FB /* OffItemBuilder.swift */; };
+		4F3D5CF6214C11570012D1FB /* OffItemInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CF2214C11570012D1FB /* OffItemInteractor.swift */; };
+		4F3D5CFA214C134C0012D1FB /* LoggedInComponent+OffItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3D5CF9214C134C0012D1FB /* LoggedInComponent+OffItem.swift */; };
 		4F892552214BF94E0065E8E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F892551214BF94E0065E8E9 /* AppDelegate.swift */; };
 		4F892559214BF94F0065E8E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F892558214BF94F0065E8E9 /* Assets.xcassets */; };
-		4F89255C214BF94F0065E8E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F89255A214BF94F0065E8E9 /* LaunchScreen.storyboard */; };
 		4F892567214BF94F0065E8E9 /* TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F892566214BF94F0065E8E9 /* TodoTests.swift */; };
 		4F892572214BF94F0065E8E9 /* TodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F892571214BF94F0065E8E9 /* TodoUITests.swift */; };
 		9111FD25E27877699B9C1C48 /* Pods_TodoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2F96CADBB69A8F16B7176F /* Pods_TodoTests.framework */; };
@@ -49,10 +73,34 @@
 		4F3D5CAC214BFC4E0012D1FB /* RootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
 		4F3D5CAD214BFC4E0012D1FB /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
 		4F3D5CB3214BFEFE0012D1FB /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
+		4F3D5CB5214C00CB0012D1FB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4F3D5CC2214C02560012D1FB /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		4F3D5CC5214C05330012D1FB /* LoggedOutRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutRouter.swift; sourceTree = "<group>"; };
+		4F3D5CC6214C05330012D1FB /* LoggedOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutViewController.swift; sourceTree = "<group>"; };
+		4F3D5CC7214C05330012D1FB /* LoggedOutBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutBuilder.swift; sourceTree = "<group>"; };
+		4F3D5CC8214C05330012D1FB /* LoggedOutInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutInteractor.swift; sourceTree = "<group>"; };
+		4F3D5CCD214C05C90012D1FB /* RootComponent+LoggedIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootComponent+LoggedIn.swift"; sourceTree = "<group>"; };
+		4F3D5CCF214C05D60012D1FB /* RootComponent+LoggedOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootComponent+LoggedOut.swift"; sourceTree = "<group>"; };
+		4F3D5CD2214C07A90012D1FB /* LoggedInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInRouter.swift; sourceTree = "<group>"; };
+		4F3D5CD4214C07A90012D1FB /* LoggedInBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInBuilder.swift; sourceTree = "<group>"; };
+		4F3D5CD5214C07A90012D1FB /* LoggedInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInInteractor.swift; sourceTree = "<group>"; };
+		4F3D5CDA214C09DC0012D1FB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		4F3D5CDD214C0A590012D1FB /* LoggedInActionableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInActionableItem.swift; sourceTree = "<group>"; };
+		4F3D5CDF214C0A760012D1FB /* RootActionableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootActionableItem.swift; sourceTree = "<group>"; };
+		4F3D5CE1214C0DD30012D1FB /* LoggedInComponent+Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoggedInComponent+Todo.swift"; sourceTree = "<group>"; };
+		4F3D5CE4214C0E170012D1FB /* TodoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRouter.swift; sourceTree = "<group>"; };
+		4F3D5CE5214C0E170012D1FB /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		4F3D5CE6214C0E170012D1FB /* TodoBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoBuilder.swift; sourceTree = "<group>"; };
+		4F3D5CE7214C0E170012D1FB /* TodoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoInteractor.swift; sourceTree = "<group>"; };
+		4F3D5CEC214C0EF20012D1FB /* TodoAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoAdapter.swift; sourceTree = "<group>"; };
+		4F3D5CEF214C11570012D1FB /* OffItemRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffItemRouter.swift; sourceTree = "<group>"; };
+		4F3D5CF0214C11570012D1FB /* OffItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffItemViewController.swift; sourceTree = "<group>"; };
+		4F3D5CF1214C11570012D1FB /* OffItemBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffItemBuilder.swift; sourceTree = "<group>"; };
+		4F3D5CF2214C11570012D1FB /* OffItemInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffItemInteractor.swift; sourceTree = "<group>"; };
+		4F3D5CF9214C134C0012D1FB /* LoggedInComponent+OffItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoggedInComponent+OffItem.swift"; sourceTree = "<group>"; };
 		4F89254E214BF94E0065E8E9 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F892551214BF94E0065E8E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F892558214BF94F0065E8E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4F89255B214BF94F0065E8E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F89255D214BF94F0065E8E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F892562214BF94F0065E8E9 /* TodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F892566214BF94F0065E8E9 /* TodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTests.swift; sourceTree = "<group>"; };
@@ -108,21 +156,97 @@
 		4F3D5CA9214BFC3D0012D1FB /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				4F3D5CAA214BFC4E0012D1FB /* RootRouter.swift */,
-				4F3D5CAB214BFC4E0012D1FB /* RootViewController.swift */,
 				4F3D5CAC214BFC4E0012D1FB /* RootBuilder.swift */,
 				4F3D5CAD214BFC4E0012D1FB /* RootInteractor.swift */,
+				4F3D5CAA214BFC4E0012D1FB /* RootRouter.swift */,
+				4F3D5CAB214BFC4E0012D1FB /* RootViewController.swift */,
+				4F3D5CCD214C05C90012D1FB /* RootComponent+LoggedIn.swift */,
+				4F3D5CCF214C05D60012D1FB /* RootComponent+LoggedOut.swift */,
 			);
 			path = Root;
 			sourceTree = "<group>";
 		};
-		4F3D5CB2214BFEEE0012D1FB /* App Start */ = {
+		4F3D5CB2214BFEEE0012D1FB /* AppStart */ = {
 			isa = PBXGroup;
 			children = (
 				4F892551214BF94E0065E8E9 /* AppDelegate.swift */,
 				4F3D5CB3214BFEFE0012D1FB /* AppComponent.swift */,
 			);
-			path = "App Start";
+			path = AppStart;
+			sourceTree = "<group>";
+		};
+		4F3D5CC0214C01990012D1FB /* Suppliment */ = {
+			isa = PBXGroup;
+			children = (
+				4F892558214BF94F0065E8E9 /* Assets.xcassets */,
+				4F3D5CB5214C00CB0012D1FB /* Constants.swift */,
+			);
+			path = Suppliment;
+			sourceTree = "<group>";
+		};
+		4F3D5CC1214C02470012D1FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F3D5CDA214C09DC0012D1FB /* Item.swift */,
+				4F3D5CC2214C02560012D1FB /* Todo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F3D5CC4214C05240012D1FB /* LoggedOut */ = {
+			isa = PBXGroup;
+			children = (
+				4F3D5CC7214C05330012D1FB /* LoggedOutBuilder.swift */,
+				4F3D5CC8214C05330012D1FB /* LoggedOutInteractor.swift */,
+				4F3D5CC5214C05330012D1FB /* LoggedOutRouter.swift */,
+				4F3D5CC6214C05330012D1FB /* LoggedOutViewController.swift */,
+			);
+			path = LoggedOut;
+			sourceTree = "<group>";
+		};
+		4F3D5CD1214C07950012D1FB /* LoggedIn */ = {
+			isa = PBXGroup;
+			children = (
+				4F3D5CC1214C02470012D1FB /* Model */,
+				4F3D5CD4214C07A90012D1FB /* LoggedInBuilder.swift */,
+				4F3D5CD5214C07A90012D1FB /* LoggedInInteractor.swift */,
+				4F3D5CD2214C07A90012D1FB /* LoggedInRouter.swift */,
+				4F3D5CE1214C0DD30012D1FB /* LoggedInComponent+Todo.swift */,
+				4F3D5CF9214C134C0012D1FB /* LoggedInComponent+OffItem.swift */,
+				4F3D5CEC214C0EF20012D1FB /* TodoAdapter.swift */,
+			);
+			path = LoggedIn;
+			sourceTree = "<group>";
+		};
+		4F3D5CDC214C0A450012D1FB /* ActionableItem */ = {
+			isa = PBXGroup;
+			children = (
+				4F3D5CDD214C0A590012D1FB /* LoggedInActionableItem.swift */,
+				4F3D5CDF214C0A760012D1FB /* RootActionableItem.swift */,
+			);
+			path = ActionableItem;
+			sourceTree = "<group>";
+		};
+		4F3D5CE3214C0DF40012D1FB /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				4F3D5CE6214C0E170012D1FB /* TodoBuilder.swift */,
+				4F3D5CE7214C0E170012D1FB /* TodoInteractor.swift */,
+				4F3D5CE4214C0E170012D1FB /* TodoRouter.swift */,
+				4F3D5CE5214C0E170012D1FB /* TodoViewController.swift */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
+		4F3D5CEE214C11490012D1FB /* OffItem */ = {
+			isa = PBXGroup;
+			children = (
+				4F3D5CF1214C11570012D1FB /* OffItemBuilder.swift */,
+				4F3D5CF2214C11570012D1FB /* OffItemInteractor.swift */,
+				4F3D5CEF214C11570012D1FB /* OffItemRouter.swift */,
+				4F3D5CF0214C11570012D1FB /* OffItemViewController.swift */,
+			);
+			path = OffItem;
 			sourceTree = "<group>";
 		};
 		4F892545214BF94E0065E8E9 = {
@@ -150,11 +274,15 @@
 		4F892550214BF94E0065E8E9 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
-				4F3D5CB2214BFEEE0012D1FB /* App Start */,
-				4F3D5CA9214BFC3D0012D1FB /* Root */,
-				4F892558214BF94F0065E8E9 /* Assets.xcassets */,
-				4F89255A214BF94F0065E8E9 /* LaunchScreen.storyboard */,
 				4F89255D214BF94F0065E8E9 /* Info.plist */,
+				4F3D5CB2214BFEEE0012D1FB /* AppStart */,
+				4F3D5CDC214C0A450012D1FB /* ActionableItem */,
+				4F3D5CA9214BFC3D0012D1FB /* Root */,
+				4F3D5CC4214C05240012D1FB /* LoggedOut */,
+				4F3D5CD1214C07950012D1FB /* LoggedIn */,
+				4F3D5CE3214C0DF40012D1FB /* Todo */,
+				4F3D5CEE214C11490012D1FB /* OffItem */,
+				4F3D5CC0214C01990012D1FB /* Suppliment */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -298,7 +426,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F89255C214BF94F0065E8E9 /* LaunchScreen.storyboard in Resources */,
 				4F892559214BF94F0065E8E9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,15 +452,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TodoUITests-checkManifestLockResult.txt",
 			);
@@ -347,15 +470,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Todo-checkManifestLockResult.txt",
 			);
@@ -369,25 +488,25 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Todo/Pods-Todo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
 				"${BUILT_PRODUCTS_DIR}/RIBs/RIBs.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RIBs.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -399,15 +518,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-TodoTests-checkManifestLockResult.txt",
 			);
@@ -423,12 +538,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3D5CC9214C05330012D1FB /* LoggedOutRouter.swift in Sources */,
+				4F3D5CED214C0EF20012D1FB /* TodoAdapter.swift in Sources */,
 				4F3D5CB1214BFC4E0012D1FB /* RootInteractor.swift in Sources */,
+				4F3D5CCB214C05330012D1FB /* LoggedOutBuilder.swift in Sources */,
+				4F3D5CF5214C11570012D1FB /* OffItemBuilder.swift in Sources */,
+				4F3D5CD9214C07A90012D1FB /* LoggedInInteractor.swift in Sources */,
+				4F3D5CD6214C07A90012D1FB /* LoggedInRouter.swift in Sources */,
+				4F3D5CF6214C11570012D1FB /* OffItemInteractor.swift in Sources */,
+				4F3D5CE2214C0DD30012D1FB /* LoggedInComponent+Todo.swift in Sources */,
+				4F3D5CDB214C09DC0012D1FB /* Item.swift in Sources */,
+				4F3D5CD0214C05D60012D1FB /* RootComponent+LoggedOut.swift in Sources */,
+				4F3D5CEB214C0E170012D1FB /* TodoInteractor.swift in Sources */,
+				4F3D5CE8214C0E170012D1FB /* TodoRouter.swift in Sources */,
+				4F3D5CF4214C11570012D1FB /* OffItemViewController.swift in Sources */,
+				4F3D5CEA214C0E170012D1FB /* TodoBuilder.swift in Sources */,
 				4F3D5CAE214BFC4E0012D1FB /* RootRouter.swift in Sources */,
+				4F3D5CD8214C07A90012D1FB /* LoggedInBuilder.swift in Sources */,
 				4F3D5CB0214BFC4E0012D1FB /* RootBuilder.swift in Sources */,
+				4F3D5CCA214C05330012D1FB /* LoggedOutViewController.swift in Sources */,
+				4F3D5CF3214C11570012D1FB /* OffItemRouter.swift in Sources */,
 				4F3D5CAF214BFC4E0012D1FB /* RootViewController.swift in Sources */,
+				4F3D5CCC214C05330012D1FB /* LoggedOutInteractor.swift in Sources */,
+				4F3D5CE0214C0A760012D1FB /* RootActionableItem.swift in Sources */,
+				4F3D5CCE214C05C90012D1FB /* RootComponent+LoggedIn.swift in Sources */,
+				4F3D5CC3214C02560012D1FB /* Todo.swift in Sources */,
+				4F3D5CB6214C00CB0012D1FB /* Constants.swift in Sources */,
 				4F892552214BF94E0065E8E9 /* AppDelegate.swift in Sources */,
+				4F3D5CDE214C0A590012D1FB /* LoggedInActionableItem.swift in Sources */,
+				4F3D5CE9214C0E170012D1FB /* TodoViewController.swift in Sources */,
 				4F3D5CB4214BFEFE0012D1FB /* AppComponent.swift in Sources */,
+				4F3D5CFA214C134C0012D1FB /* LoggedInComponent+OffItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,17 +602,6 @@
 			targetProxy = 4F89256E214BF94F0065E8E9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4F89255A214BF94F0065E8E9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4F89255B214BF94F0065E8E9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4F892574214BF94F0065E8E9 /* Debug */ = {
@@ -526,7 +655,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -580,7 +709,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -597,6 +726,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72HBUP85JZ;
 				INFOPLIST_FILE = Todo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -616,6 +746,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72HBUP85JZ;
 				INFOPLIST_FILE = Todo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -636,6 +767,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72HBUP85JZ;
 				INFOPLIST_FILE = TodoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -658,6 +790,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72HBUP85JZ;
 				INFOPLIST_FILE = TodoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -679,6 +812,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72HBUP85JZ;
 				INFOPLIST_FILE = TodoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -700,6 +834,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72HBUP85JZ;
 				INFOPLIST_FILE = TodoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

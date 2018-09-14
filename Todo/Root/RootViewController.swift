@@ -9,6 +9,7 @@
 import RIBs
 import RxSwift
 import UIKit
+import RealmSwift
 
 protocol RootPresentableListener: class {
     // TODO: Declare properties and methods that the view controller can invoke to perform
@@ -35,7 +36,44 @@ final class RootViewController: UIViewController, RootPresentable, RootViewContr
     }
     
     // MARK: - RootViewControllable
-    func present(viewController: ViewControllable) {
-        present(viewController.uiviewController, animated: true)
+    func replaceModal(viewController: ViewControllable?) {
+        targetViewController = viewController
+        
+        guard !animationInProgress else {
+            return
+        }
+        
+        if presentedViewController != nil {
+            animationInProgress = true
+            dismiss(animated: true) { [weak self] in
+                if self?.targetViewController != nil {
+                    self?.presentTargetViewController()
+                } else {
+                    self?.animationInProgress = false
+                }
+            }
+        } else {
+            presentTargetViewController()
+        }
     }
+    
+    // MARK: - Private
+    
+    private var targetViewController: ViewControllable?
+    private var animationInProgress = false
+    
+    private func presentTargetViewController() {
+        if let targetViewController = targetViewController {
+            animationInProgress = true
+            present(targetViewController.uiviewController, animated: true) { [weak self] in
+                self?.animationInProgress = false
+            }
+        }
+    }
+}
+
+// MARK: LoggedInViewControllable
+
+extension RootViewController: LoggedInViewControllable {
+    
 }

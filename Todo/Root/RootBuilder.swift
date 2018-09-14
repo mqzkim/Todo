@@ -15,13 +15,19 @@ protocol RootDependency: Dependency {
 
 final class RootComponent: Component<RootDependency> {
 
-    // TODO: Declare 'fileprivate' dependencies that are only used by this RIB.
+    let rootViewController: RootViewController
+    
+    init(dependency: RootDependency,
+         rootViewController: RootViewController) {
+        self.rootViewController = rootViewController
+        super.init(dependency: dependency)
+    }
 }
 
 // MARK: - Builder
 
 protocol RootBuildable: Buildable {
-    func build() -> LaunchRouting
+    func build() -> (launchRouter: LaunchRouting, urlHandler: URLHandler)
 }
 
 final class RootBuilder: Builder<RootDependency>, RootBuildable {
@@ -30,12 +36,19 @@ final class RootBuilder: Builder<RootDependency>, RootBuildable {
         super.init(dependency: dependency)
     }
 
-    func build() -> LaunchRouting {
-        _ = RootComponent(dependency: dependency)
+    func build() -> (launchRouter: LaunchRouting, urlHandler: URLHandler) {
         let viewController = RootViewController()
+        let component = RootComponent(dependency: dependency,
+                                      rootViewController: viewController)
         let interactor = RootInteractor(presenter: viewController)
+        
+        let loggedOutBuilder = LoggedOutBuilder(dependency: component)
+        let loggedInBuilder = LoggedInBuilder(dependency: component)
+        let router = RootRouter(interactor: interactor,
+                                viewController: viewController,
+                                loggedOutBuilder: loggedOutBuilder,
+                                loggedInBuilder: loggedInBuilder)
 
-        return RootRouter(interactor: interactor,
-                          viewController: viewController)
+        return (router, interactor)
     }
 }
